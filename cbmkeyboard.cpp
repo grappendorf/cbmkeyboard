@@ -17,10 +17,10 @@
 #include <avr/pgmspace.h>
 
 /** Define this if you want debug information on the serial interface */
-#define DEBUG 1
+//#define DEBUG 1
 
 /** Define this if you want debug information about the PS2 transmission */
-#define DEBUG_PS2 1
+//#define DEBUG_PS2 1
 
 #ifdef DEBUG
 #define SERIAL_DEBUG_PRINT(msg) Serial.print(msg)
