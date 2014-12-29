@@ -1,4 +1,12 @@
-target
 *.s#?
 *.b#?
 eagle.epf
+target/*.oa
+target/*.a
+target/*.d
+target/*.o
+target/*.elf
+target/*.hex
+target/*.lss
+target/*.eep
+target/*.zip
