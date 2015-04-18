@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/CDC.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/CDC.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HID.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HID.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/IPAddress.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/Print.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/Print.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/Stream.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/Stream.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/Tone.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/Tone.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/USBCore.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/USBCore.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/WInterrupts.c">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/WInterrupts.c" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/WMath.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/WMath.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/WString.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/WString.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/abi.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/abi.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/hooks.c">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/hooks.c" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/main.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/main.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/new.cpp">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/new.cpp" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring.c">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring.c" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring_analog.c" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring_digital.c" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring_pulse.c" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+      <sourceFolder url="file:///opt/arduino-1.6.3/hardware/arduino/avr/cores/arduino/wiring_shift.c" isTestSource="false" />
+    </content>
+    <content url="file:///opt/arduino-libraries/ps2dev/ps2dev.cpp">
+      <sourceFolder url="file:///opt/arduino-libraries/ps2dev/ps2dev.cpp" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

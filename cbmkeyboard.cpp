@@ -13,7 +13,7 @@
  */
 
 #include <Arduino.h>
-#include <ps2dev/ps2dev.h>
+#include <ps2dev.h>
 #include <avr/pgmspace.h>
 
 /** Define this if you want debug information on the serial interface */
@@ -125,13 +125,13 @@ const uint8_t PS2_ACK = 0xfa;
 const uint16_t DEFAULT_TYPEMATIC_DELAY_INTERVALL = 500;
 
 /** Typematic delay intervals that can be set by the host */
-PROGMEM uint16_t typematicDelayIntervalls[] = { 250, 500, 750, 1000 };
+PROGMEM const uint16_t typematicDelayIntervalls[] = { 250, 500, 750, 1000 };
 
 /** Default typematics repeat interval in milliseconds */
 const uint16_t DEFAULT_TYPEMATIC_REPEAT_INTERVALL = 54;
 
 /** Typematic repeat intervals that can be set by the host */
-PROGMEM uint16_t typematicRepeatIntervalls[] = { 33, 37, 42, 46, 48, 54, 58, 63, 67, 75, 83, 92, 100, 109, 116,
+PROGMEM const uint16_t typematicRepeatIntervalls[] = { 33, 37, 42, 46, 48, 54, 58, 63, 67, 75, 83, 92, 100, 109, 116,
 		125, 133, 149, 167, 182, 200, 217, 233, 250, 270, 303, 333, 370, 400, 435, 476, 500 };
 
 /**
@@ -139,7 +139,7 @@ PROGMEM uint16_t typematicRepeatIntervalls[] = { 33, 37, 42, 46, 48, 54, 58, 63,
  * |-> Col
  * v Row
  */
-PROGMEM uint16_t makeCodes[]
+PROGMEM const uint16_t makeCodes[]
 		= { 0x001e, 0x002e, 0x003e, 0x0055, 0x000a, 0x016c, 0x0000, 0x0000, 0x0016, 0x0025, 0x003d, 0x0045, 0x0083,
 				0x017a, 0x0000, 0x0001, 0x0076, 0x001b, 0x002b, 0x0033, 0x005d, 0x0042, 0x004c, 0x0003, 0x001c, 0x0023,
 				0x0034, 0x003b, 0x005a, 0x004b, 0x0052, 0x000b, 0x000d, 0x001d, 0x002d, 0x0035, 0x005b, 0x0043, 0x004d,
@@ -153,7 +153,7 @@ PROGMEM uint16_t makeCodes[]
  * |-> Col
  * v Row
  */
-PROGMEM uint16_t makeCodesShift[] { 0x021e, 0x022e, 0x023e, 0x0255, 0x020a, 0x0169, 0x0000, 0x0000, 0x0216,
+PROGMEM const uint16_t makeCodesShift[] = { 0x021e, 0x022e, 0x023e, 0x0255, 0x020a, 0x0169, 0x0000, 0x0000, 0x0216,
 		0x0225, 0x023d, 0x0245, 0x0283, 0x017d, 0x0000, 0x0201, 0x0276, 0x021b, 0x022b, 0x0233, 0x025d, 0x0242, 0x024c,
 		0x0203, 0x021c, 0x0223, 0x0234, 0x023b, 0x005a, 0x024b, 0x0252, 0x020b, 0x000d, 0x021d, 0x022d, 0x0235, 0x025b,
 		0x0243, 0x024d, 0x044e, 0x0215, 0x0224, 0x022c, 0x023c, 0x000e, 0x0244, 0x0254, 0x020c, 0x0000, 0x0221, 0x0232,
